@@ -14,7 +14,7 @@ Both variants exploit the same backend module, which is proposed to directly fus
     <img src="./doc/platform.jpg" alt="drawing" width="600"/>
 </p>
 
-## Cite
+## BibTex Citation
 Thank you for citing our [*LiLi-OM* paper](https://arxiv.org/pdf/2010.13150.pdf) if you use any of this code: 
 ```
 @article{arXiv20_Li,
@@ -26,11 +26,12 @@ Thank you for citing our [*LiLi-OM* paper](https://arxiv.org/pdf/2010.13150.pdf)
  year = {2020}
 }
 ```
+The work has been submitted to IEEE Robotics and Automation Letters (RA-L).
 
 ## Data sets
 We provide data sets recorded by Livox Horizon (10 Hz) and Xsens MTi-670 (200 Hz)
 
-[Download Link](https://isas-server.iar.kit.edu/lidardataset/) 
+Download from [isas-server](https://isas-server.iar.kit.edu/lidardataset/) or [OneDrive](https://kit0-my.sharepoint.com/:f:/g/personal/kailai_li_kit_edu/EvhG1_sCjwFBnVeP3xlFsh0BIz-T3MsAgxBpMOZxyERYMw?e=oetpRX)
 
 ## Dependency
 
@@ -53,7 +54,7 @@ catkin build livox_ros_driver
 catkin build lili_om
 catkin build lili_om_rot
 ```
-## Usasge
+## Usage
 1. Run a launch file for lili_om or lili_om_rot 
 2. Play the bag file
 
@@ -72,3 +73,11 @@ rosbag play FR_IOSB_Short_64.bag -r 1.0 --clock --pause
 Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 
 Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
+
+## Credits
+We hereby recommend reading [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) and [LIO-mapping](https://github.com/hyye/lio-mapping) for reference.
+
+## License
+The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
+
+We are constantly working on improving our code. For any technical issues or commercial use, please contact Kailai Li < kailai.li@kit.edu > with Intelligent Sensor-Actuator-Systems Lab ([ISAS](https://isas.iar.kit.edu/)), Karlsruhe Institute of Technology ([KIT](http://www.kit.edu/english/index.php)).
